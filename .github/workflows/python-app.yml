@@ -42,7 +42,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add docs/plot.html && git commit -m "Update plot"
+        git add docs/index.html && git commit -m "Update plot"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:

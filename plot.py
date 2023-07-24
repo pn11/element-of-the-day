@@ -34,7 +34,7 @@ def main():
         )
     )
 
-    fig.write_html("docs/plot.html")
+    fig.write_html("docs/index.html")
     fig.show()
 
 
