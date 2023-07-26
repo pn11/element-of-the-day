@@ -19,7 +19,6 @@ jobs:
       matrix:
         python-version: ["3.11"]
         poetry-version: ["1.5.1"]
-        os: [ubuntu-18.04, macos-latest, windows-latest]
     runs-on: ubuntu-latest
     permissions:
       contents: write
